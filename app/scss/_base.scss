@@ -1,0 +1,74 @@
+/* Base */
+*::-webkit-input-placeholder {
+	color: #333;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+	color: #333;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+	color: #333;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+	color: #333;
+  opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #333;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #333;
+}
+
+/* Html, Body */
+html {
+  min-width: 320px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit; 
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+  position: relative;
+  font-family: $default-font;
+  font-weight: 300;
+  color: $text-color;
+  background-color: #fff;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+button {
+  cursor: pointer;
+}
+
+// Коррекция для кликабельных элементов с указанной ролью в iOS
+[role='button'] {
+  cursor: pointer;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}

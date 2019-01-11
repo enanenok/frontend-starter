@@ -1,0 +1,9 @@
+//PSEUDO-ELEMENTS
+@mixin ps($width, $height) {
+  display: block;
+	content: "";
+	position: absolute;
+	width: $width;
+	height: $height;
+}
+// @include ps(10px, 10px);
