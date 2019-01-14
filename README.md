@@ -1,2 +1,2 @@
 # Gulp Starter Template
-HTML5 & CSS3, SCSS, Autoprefixer, Browsersync, Gulp
+HTML5 & CSS3, SCSS, JS, Autoprefixer, Browsersync, Gulp
