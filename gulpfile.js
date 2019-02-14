@@ -31,7 +31,7 @@ gulp.task('scss', function() {
 		.pipe(sourcemaps.init())
 		.pipe(sass({ outputStyle: 'expanded' }))
 		.on("error", notify.onError("Error: <%= error.message %>"))
-		.pipe(autoprefixer(['last 15 versions']))
+		.pipe(autoprefixer(['last 5 versions']))
 		.pipe(sourcemaps.write('.'))
 		.pipe(gulp.dest('public/css'))
 }); 
